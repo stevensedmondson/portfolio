@@ -1,10 +1,13 @@
+import React from "react";
 import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <main className="bg-gray-400/20 text-white w-[80vw] lg:w-[40vw] h-auto mx-auto lg:ml-[10rem] mt-[10rem] text-center rounded-3xl backdrop-blur-md border-slate-400 border-2 shadow-slate-500 shadow-lg">
+    <div>
       <div className="pt-10">
         <h1 className="uppercase text-xl underline underline-offset-8">Welcome to My Portfolio!</h1>
+        
       </div>
       <div className="">
         <p className="pt-5 mt-5 mx-10">
@@ -17,6 +20,6 @@ export default function Home() {
           As I chart my course towards a full-time role in technology, I am driven by an unwavering enthusiasm to leverage my  diverse background and expertise to make impactful contributions. With a spirit primed for discovery and a resolve to  excel, I eagerly anticipate the journey ahead, where every line of code becomes a testament to my passion and dedication. 
         </p>
       </div>
-    </main>
+    </div>
   );
 }
