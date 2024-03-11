@@ -9,6 +9,7 @@ import { useAnimate } from "framer-motion";
 
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -31,12 +32,13 @@ export default function RootLayout({
           <Banner />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">  
-          <div             
-            className="bg-gray-400/20 text-white w-[80vw] lg:w-[40vw] h-auto mx-auto lg:ml-[10rem] mt-[10rem] text-center rounded-3xl backdrop-blur-md border-slate-400 border-2 shadow-slate-500 shadow-lg">
+                       
+            <div
+              className="container bg-gray-400/20 text-white w-[80vw] lg:w-[45vw] h-auto mx-auto lg:ml-[10rem] mt-[5rem] mb-[10rem] text-center rounded-3xl backdrop-blur-md border-slate-400 border-2 shadow-slate-500 shadow-lg">
             
-            {children}
-
-          </div>
+              {children}
+            </div>
+          
           <div className="flex justify-center items-end mb-0">  
             <div className="hidden lg:block lg:fixed bottom-0 -right-5">
                 <Image 
